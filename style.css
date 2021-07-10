@@ -1,0 +1,45 @@
+body {
+    background: #000000;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'ABeeZee', sans-serif;
+    color: #00dfa6;
+}
+
+h2 {
+    font-family: 'ABeeZee', sans-serif;
+    color: #00dfa6;
+}
+
+img {
+    margin-top: 1rem;
+    background-color: #00dfa6;
+    border-radius: 2rem;
+    width: 150px;
+}
+
+a {
+    font-size: 4rem;
+    margin: 0.5rem;
+    color: aliceblue;
+}
+
+.linkedin {
+    background-color: #0077b5;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.github {
+    background-color: #454b4b;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}

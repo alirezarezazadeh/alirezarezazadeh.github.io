@@ -1,45 +1,66 @@
+
+
 body {
     background: #000000;
     text-align: center;
 }
 
-h1 {
-    font-family: 'ABeeZee', sans-serif;
+strong {
     color: #00dfa6;
+    border-radius: 1rem;
 }
 
-h2 {
-    font-family: 'ABeeZee', sans-serif;
-    color: #00dfa6;
-}
-
-img {
-    margin-top: 1rem;
-    background-color: #00dfa6;
-    border-radius: 2rem;
-    width: 150px;
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 1.5rem;
 }
 
 a {
-    font-size: 4rem;
-    margin: 0.5rem;
     color: aliceblue;
 }
 
 .linkedin {
-    background-color: #0077b5;
+    color:#0077b5;
     padding: 0.5rem;
-    border-radius: 1rem;
+    border-radius: 1rem;    
+    font-size: 3rem;
 }
 
-.twitter {
-    background-color: #1DA1F2;
+.twitter {   
+    color:#2795e9;
     padding: 0.5rem;
     border-radius: 1rem;
+    font-size: 3rem;
 }
 
 .github {
-    background-color: #454b4b;
     padding: 0.5rem;
     border-radius: 1rem;
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+.text-content {
+    line-height: 0.9;
+    display: inline-block;
+    width:500px;
+    text-align: left;
+}
+
+@media (max-width: 40rem) {
+    .text-content {
+        width: 300px;
+    }
+  }
+
+.links {
+    margin-top: 1rem;
+}
+
+.prof-pic {
+    text-align: center;
+    border-radius: 20rem;
+    border: 2px solid #00dfa6;
+    width: 20rem;
 }

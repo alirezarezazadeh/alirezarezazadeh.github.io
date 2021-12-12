@@ -1,40 +1,39 @@
 
 
 body {
-    background: #000000;
+    background: rgb(63, 95, 184);
     text-align: center;
 }
 
-strong {
-    color: #00dfa6;
-    border-radius: 1rem;
-}
-
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     color: #ffffff;
     font-size: 1.5rem;
 }
 
 a {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 
 .linkedin {
-    color:#0077b5;
+    background-color: rgb(0, 228, 216);
+    color: rgb(0, 0, 0);
     padding: 0.5rem;
     border-radius: 1rem;    
     font-size: 3rem;
 }
 
 .twitter {   
-    color:#2795e9;
+    background-color: rgb(0, 228, 216);
+    color: rgb(0, 0, 0);
     padding: 0.5rem;
     border-radius: 1rem;
     font-size: 3rem;
 }
 
 .github {
+    background-color: rgb(0, 228, 216);
+    color: rgb(0, 0, 0);
     padding: 0.5rem;
     border-radius: 1rem;
     font-size: 3rem;
@@ -42,6 +41,11 @@ a {
 }
 
 .text-content {
+    margin-top: 1rem;
+    background-color: rgb(44, 73, 168);
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     line-height: 0.9;
     display: inline-block;
     width:500px;
@@ -58,9 +62,11 @@ a {
     margin-top: 1rem;
 }
 
-.prof-pic {
-    text-align: center;
-    border-radius: 20rem;
-    border: 2px solid #00dfa6;
-    width: 20rem;
+.description {
+    color: #e0e0e0;
+    font-size: 1.3rem;
+}
+
+.profile {
+    margin-top: 5rem;
 }

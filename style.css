@@ -1,7 +1,7 @@
 
 
 body {
-    background: rgb(158, 212, 208);
+    background: rgb(192, 174, 211);
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ p {
 
 .text-content {
     margin-top: 1rem;
-    background: rgb(110, 189, 183);
+    background: rgb(175, 142, 209);
     border-radius: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
